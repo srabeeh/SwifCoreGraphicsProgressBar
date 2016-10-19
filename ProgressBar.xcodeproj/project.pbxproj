@@ -12,6 +12,8 @@
 		2295ECE81DB79D0700B30740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2295ECE61DB79D0700B30740 /* Main.storyboard */; };
 		2295ECEA1DB79D0700B30740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2295ECE91DB79D0700B30740 /* Assets.xcassets */; };
 		2295ECED1DB79D0700B30740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2295ECEB1DB79D0700B30740 /* LaunchScreen.storyboard */; };
+		2295ECF81DB79E1100B30740 /* ProgressBarVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2295ECF71DB79E1100B30740 /* ProgressBarVector.swift */; };
+		2295ECFA1DB7B5B100B30740 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2295ECF91DB7B5B100B30740 /* ProgressBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2295ECE91DB79D0700B30740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2295ECEC1DB79D0700B30740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2295ECEE1DB79D0700B30740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2295ECF71DB79E1100B30740 /* ProgressBarVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarVector.swift; sourceTree = "<group>"; };
+		2295ECF91DB7B5B100B30740 /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,40 @@
 		2295ECE11DB79D0700B30740 /* ProgressBar */ = {
 			isa = PBXGroup;
 			children = (
+				2295ECF61DB79D2300B30740 /* Views */,
+				2295ECF51DB79D1B00B30740 /* Models */,
+				2295ECF41DB79D1300B30740 /* Controllers */,
 				2295ECE21DB79D0700B30740 /* AppDelegate.swift */,
-				2295ECE41DB79D0700B30740 /* ViewController.swift */,
 				2295ECE61DB79D0700B30740 /* Main.storyboard */,
 				2295ECE91DB79D0700B30740 /* Assets.xcassets */,
 				2295ECEB1DB79D0700B30740 /* LaunchScreen.storyboard */,
 				2295ECEE1DB79D0700B30740 /* Info.plist */,
 			);
 			path = ProgressBar;
+			sourceTree = "<group>";
+		};
+		2295ECF41DB79D1300B30740 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2295ECE41DB79D0700B30740 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2295ECF51DB79D1B00B30740 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2295ECF61DB79D2300B30740 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2295ECF71DB79E1100B30740 /* ProgressBarVector.swift */,
+				2295ECF91DB7B5B100B30740 /* ProgressBarView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2295ECE51DB79D0700B30740 /* ViewController.swift in Sources */,
+				2295ECFA1DB7B5B100B30740 /* ProgressBarView.swift in Sources */,
+				2295ECF81DB79E1100B30740 /* ProgressBarVector.swift in Sources */,
 				2295ECE31DB79D0700B30740 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
